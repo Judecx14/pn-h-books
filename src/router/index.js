@@ -3,14 +3,14 @@ import Books from '../components/Admin/Libros.vue'
 import Category from '../components/Admin/Categoria.vue'
 import Cita from '../components/Admin/Cita.vue'
 import Login from '../components/User/Login.vue'
-
+import ViewRoutes from '../components/ViewRoutes/ViewRoutes.vue'
 import Detalle_Libro from '../components/User/Detalle_Libro.vue'
 import Perfil from '../components/User/Perfil.vue'
 import App from '../App.vue'
 const router = createRouter({
     history: createWebHistory(),
     routes:[
-        {path:'/',component:App,children:[
+        {path:'/',component:ViewRoutes,children:[
             //home {path:'',component:},
             //404 {path:'/:catchAll(.*)',component:},
             {path:'admin',children:[
