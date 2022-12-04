@@ -1,7 +1,10 @@
 <template>
-    <nav class="navbar" style="background:#020202 ">
+    <nav class="navbar" style="background:#000 ">
         <div class="container-fluid">
-    <a class="navbar-brand" href="#"><b class="text-light">H - Books</b></a>
+    <a class="navbar-brand" href="#"><b class="text-light">
+      <img class="img-fluid logo-icon" src="../../assets/logo/logo.png"/>
+      H - Books
+    </b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,3 +25,9 @@
   </div>
   </nav>
 </template>
+<style>
+.logo-icon {
+  width: 50px;
+  height: 50px;
+}
+</style>

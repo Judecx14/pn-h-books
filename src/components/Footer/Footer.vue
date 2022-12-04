@@ -11,11 +11,10 @@
 <style>
 footer {
     margin: 0%;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background: #000;
     color: white;
     text-align: center;
 }
