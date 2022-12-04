@@ -17,6 +17,7 @@ const router = createRouter({
             path: '/', component: ViewRoutes, children: [
                 //home {path:'',component:},
                 //404 {path:'/:catchAll(.*)',component:},
+                { path: '', redirect: '/welcome' },
                 {
                     path: 'admin', children: [
                         { path: 'book', component: Books },
