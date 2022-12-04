@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
+    ></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "810465bf-8ebd-43c6-9b0a-7726265dde4d",
+          safari_web_id:
+            "web.onesignal.auto.09714a24-a3bb-414f-8109-d75a4f07e6fa",
+          notifyButton: {
+            enable: true,
+          },
+        });
+      });
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>H - Books</title>
   </head>
   <body>
